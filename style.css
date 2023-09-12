@@ -1,0 +1,250 @@
+
+body{
+ overflow-x: hidden;
+min-height: 100vh;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  background-color: #c1c1c1;
+  margin: 0%;
+
+}
+.buttonstyle{
+  color: white;
+  border-color: white;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+
+}
+.buttonstyle:hover{
+  border-color: white;
+  color: white;
+  font-family: 'Sansita', sans-serif;
+ font-size: 1.25rem;
+  text-shadow: 2px 2px 2px black;
+}
+.buttonstyle:active{
+  border-color: black;
+  color: black;
+  font-family: 'Sansita', sans-serif;
+ font-size: 1.25rem;
+  text-shadow:none;
+}
+.nav-link{
+  color: white;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+
+}
+.nav-link:hover{
+   color:  #7692FF;;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+  text-shadow: 2px 2px 2px black;
+
+}
+.nav-link:active{
+   color: black;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+  text-shadow:none;
+
+}
+.navbar-brand{
+  color: white;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px black;
+
+}
+.navbar-brand:link{
+  color: white;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px black;
+
+}
+.navbar-brand:visited{
+  color: white;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px black;
+
+}
+.navbar-brand:hover{
+  color: white;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+.navbar-brand:active{
+  color: white !important;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.5rem;
+  text-shadow: none !important;
+}
+
+
+.navbar-toggler-icon{
+  background-image: url("icons8-menu-rounded-50.png");
+}
+.dropdown-item{
+ color:#b9bcc6;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+
+}
+.dropdown-item:hover{
+ background-color:#ffffff;
+  color:  #7692FF;;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+  text-shadow: 2px 2px 2px black;
+}
+.dropdown-item:active{
+background-color:#b9bcc6;
+   color: black;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.25rem;
+text-shadow: none;
+}
+.butterfly{
+  position: relative;
+  z-index: 3;
+  height: 2.5rem;
+  display: inline;
+}
+.container{
+  margin: 0%;
+  text-align: center;
+}
+.welcome2 {
+  color: #b9bcc6;
+  font-size: 15em;
+  display: inline;
+    position: relative;
+  z-index: 3;
+  text-align: center;
+   font-family: 'Sansita', sans-serif;
+  
+}
+
+.flowers{
+  z-index: 1;
+  position: relative;
+  background-repeat: no-repeat;
+background-size: 100%;
+  height: 100rem;
+  background-image: url("attempt2.jpg");
+}
+
+#me{
+  margin: 2rem;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.abtmetext{
+  margin: 2rem;
+}
+
+
+#welcome{
+  width: 10.5rem;
+  height:3rem;
+  background-color:transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 60px;
+  border: solid white 3px;
+  color: white;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  10% {border-color: #EEF1EF;}
+ 
+
+
+  25% {border-color: #7692FF;}
+
+  50% {border-color: #232ED1;}
+  75% {border-color: #7692FF;}
+  90% {border-color: #d4b7e6;}
+  100%{border-color: #ffffff;}
+}
+
+#aboutme{
+animation: abtme;
+background-image:url("gifs/flowers.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.welcometomypage{
+ font-family: 'Sansita', sans-serif;
+  font-size: 13rem;
+  animation: color 5s infinite;
+  color: #EEF1EF;
+}
+@keyframes color {
+  10% {color: #EEF1EF;}
+ 
+
+
+  25% {color: #7692FF;}
+
+  50% {color: #232ED1;}
+  75% {color: #7692FF;}
+  90% {color: #d4b7e6;}
+  100%{color: #EEF1EF}
+}
+
+.putpadding{
+  padding: 6rem;
+  background-image: url("gifs/paris.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.abtmetext{
+  color: #ffffff;
+  font-family: 'Sansita', sans-serif;
+  font-size: 1.75rem;
+  animation: bg 50s infinite;
+  background-color: #EEF1EF;
+  padding: 2rem;
+  border-radius: 10px;
+}
+@keyframes bg {
+  10% {background-color:#d8bcfb;}
+ 
+
+
+  25% {background-color: #7591fe;}
+
+  50% {background-color: #232ED1;}
+  75% {background-color: #7692FF;}
+  90% {background-color: #d4b7e6;}
+  100%{background-color: #d8bcfb}
+}
+.card-body{
+  background-image:linear-gradient(#b8bed6,#2d3134);
+}
+.img-thumbnail{
+  color: white;
+   font-family: 'Sansita', sans-serif;
+  font-size: 2rem;
+}
+
+.resume{
+  height: 40rem;
+  width: 40rem;
+}
+.res{
+ background-color: #EEF1EF;
+  animation: bg 50s infinite;
+}
